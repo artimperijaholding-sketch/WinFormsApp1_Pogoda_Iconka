@@ -39,7 +39,7 @@
             labelData.AutoSize = true;
             labelData.BackColor = Color.Transparent;
             labelData.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            labelData.Location = new Point(3, 0);
+            labelData.Location = new Point(-4, 1);
             labelData.Name = "labelData";
             labelData.Size = new Size(40, 15);
             labelData.TabIndex = 0;

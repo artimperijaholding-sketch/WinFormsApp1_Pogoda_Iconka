@@ -158,7 +158,7 @@ namespace WinFormsApp1_Pogoda
                     .ToList();
                 foreach (var item in dailyForecast)
                 {
-                    DateTime date=DateTime.Parse(item.DateTxt);
+                    
                     
                     flowLayoutPanelForecast.Controls.Add(new UserControlForecast(item));
                 }

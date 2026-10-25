@@ -39,7 +39,7 @@
             labelData.AutoSize = true;
             labelData.BackColor = Color.Transparent;
             labelData.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            labelData.Location = new Point(-4, 1);
+            labelData.Location = new Point(4, 1);
             labelData.Name = "labelData";
             labelData.Size = new Size(40, 15);
             labelData.TabIndex = 0;
@@ -60,7 +60,8 @@
             // 
             pictureBox1.Location = new Point(10, 41);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(24, 25);
+            pictureBox1.Size = new Size(38, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 

@@ -51,7 +51,7 @@
             dataPanel1.Location = new Point(12, 11);
             dataPanel1.Margin = new Padding(3, 2, 3, 2);
             dataPanel1.Name = "dataPanel1";
-            dataPanel1.Size = new Size(348, 202);
+            dataPanel1.Size = new Size(330, 202);
             dataPanel1.TabIndex = 0;
             // 
             // labelSummary
@@ -98,7 +98,7 @@
             // 
             // buttonGetData
             // 
-            buttonGetData.Location = new Point(263, 399);
+            buttonGetData.Location = new Point(267, 500);
             buttonGetData.Name = "buttonGetData";
             buttonGetData.Size = new Size(75, 23);
             buttonGetData.TabIndex = 2;
@@ -109,14 +109,14 @@
             // weatherItemsPanel
             // 
             weatherItemsPanel.BackColor = Color.Transparent;
-            weatherItemsPanel.Location = new Point(12, 230);
+            weatherItemsPanel.Location = new Point(7, 230);
             weatherItemsPanel.Name = "weatherItemsPanel";
             weatherItemsPanel.Size = new Size(348, 154);
             weatherItemsPanel.TabIndex = 4;
             // 
             // textBoxCityName
             // 
-            textBoxCityName.Location = new Point(12, 400);
+            textBoxCityName.Location = new Point(12, 501);
             textBoxCityName.Name = "textBoxCityName";
             textBoxCityName.Size = new Size(225, 23);
             textBoxCityName.TabIndex = 5;
@@ -124,9 +124,9 @@
             // flowLayoutPanelForecast
             // 
             flowLayoutPanelForecast.BackColor = Color.Transparent;
-            flowLayoutPanelForecast.Location = new Point(12, 449);
+            flowLayoutPanelForecast.Location = new Point(8, 390);
             flowLayoutPanelForecast.Name = "flowLayoutPanelForecast";
-            flowLayoutPanelForecast.Size = new Size(348, 176);
+            flowLayoutPanelForecast.Size = new Size(348, 105);
             flowLayoutPanelForecast.TabIndex = 6;
             // 
             // Form1
@@ -135,7 +135,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDark;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(378, 637);
+            ClientSize = new Size(359, 534);
             Controls.Add(flowLayoutPanelForecast);
             Controls.Add(textBoxCityName);
             Controls.Add(weatherItemsPanel);

@@ -31,7 +31,7 @@ namespace WinFormsApp1_Pogoda
             if (ForecastItem != null)
             {
                 DateTime date = DateTime.Parse(ForecastItem.DateTxt);
-                labelData.Text = date.ToString("dddd",new System.Globalization.CultureInfo("ua-Ua"));
+                labelData.Text = date.ToString("dddd",new System.Globalization.CultureInfo("en-US"));
                 labelTemp.Text = $"{(int)ForecastItem.Main.Temp}°C"; ;
                 try
                 {
